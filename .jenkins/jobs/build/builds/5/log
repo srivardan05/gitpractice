@@ -1,0 +1,59 @@
+Started by an SCM change
+Building in workspace /root/.jenkins/workspace/build
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/srivardan05/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/srivardan05/hello-world-war.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/srivardan05/hello-world-war.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 49401ca27c593cc65caa231187978ec0fce94ca6 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 49401ca27c593cc65caa231187978ec0fce94ca6
+Commit message: "Update index.jsp"
+ > /usr/bin/git rev-list --no-walk 7b34f5206ee4eefe1c2799c856f9c4c49f8d371e # timeout=10
+[build] $ /bin/sh -xe /opt/tomcat/temp/jenkins1236206954822123322.sh
++ /opt/maven/bin/mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.efsavage:hello-world-war >--------------------
+[INFO] Building Hello World Web Application Repository 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello-world-war ---
+[INFO] Deleting /root/.jenkins/workspace/build/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-world-war ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/.jenkins/workspace/build/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-world-war ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/.jenkins/workspace/build/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello-world-war ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ hello-world-war ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello-world-war] in [/root/.jenkins/workspace/build/target/hello-world-war-1.0.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/root/.jenkins/workspace/build/src/main/webapp]
+[INFO] Webapp assembled in [42 msecs]
+[INFO] Building war: /root/.jenkins/workspace/build/target/hello-world-war-1.0.0.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.539 s
+[INFO] Finished at: 2018-11-06T13:36:14Z
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4L2Wea2hF2fBv0nQO9F8HIlzPtk1i1Joi9dUIWtYQ5cxAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2U1IKc/Mrc1LwSfQBNHbj6xQAAAA==[0mdeployment
+Finished: SUCCESS

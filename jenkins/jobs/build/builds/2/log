@@ -1,0 +1,20 @@
+Started by user [8mha:////4GWWCD1+HPShbpzQ3gGfrpqnnOpWPt6/IonhJ7xkZwUkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9YqDuzLLEYgC68cHwwwAAAA==[0msrinivas
+Building in workspace /root/.jenkins/workspace/build
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/srivardan05/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/srivardan05/hello-world-war.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/srivardan05/hello-world-war.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7b34f5206ee4eefe1c2799c856f9c4c49f8d371e (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 7b34f5206ee4eefe1c2799c856f9c4c49f8d371e
+Commit message: "Update index.jsp"
+ > /usr/bin/git rev-list --no-walk 7b34f5206ee4eefe1c2799c856f9c4c49f8d371e # timeout=10
+[build] $ /bin/sh -xe /opt/tomcat/temp/jenkins460168960411944790.sh
++ mvn clean package
+/opt/tomcat/temp/jenkins460168960411944790.sh: line 2: mvn: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

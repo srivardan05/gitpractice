@@ -1,0 +1,7 @@
+Started by upstream project "[8mha:////4HG1rDFoE6h3c3HU6zZHV8dHDRtI1TIKHCJjYf0m010lAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4A2sydrJB4D8ZXuJw5fGBsGHZV01FvGi/8CPA589XfxvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfVMAI6MK5sEAAAA=[0m5
+originally caused by:
+ Started by an SCM change
+Building in workspace /root/.jenkins/workspace/deployment
+[deployment] $ /bin/sh -xe /opt/tomcat/temp/jenkins6250948905757527547.sh
++ cp /root/.jenkins/workspace/build/target/hello-world-war-1.0.0.war /opt/tomcat/webapps/hello.war
+Finished: SUCCESS

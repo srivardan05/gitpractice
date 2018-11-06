@@ -1,0 +1,5 @@
+Started by user [8mha:////4GWWCD1+HPShbpzQ3gGfrpqnnOpWPt6/IonhJ7xkZwUkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9YqDuzLLEYgC68cHwwwAAAA==[0msrinivas
+Building in workspace /root/.jenkins/workspace/deployment
+[deployment] $ /bin/sh -xe /opt/tomcat/temp/jenkins2097932113908307506.sh
++ cp /root/.jenkins/workspace/build/target/hello-world-war-1.0.0.war /opt/tomcat/webapps/hello.war
+Finished: SUCCESS

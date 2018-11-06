@@ -1,0 +1,9 @@
+Started on Nov 6, 2018 1:51:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 49401ca27c593cc65caa231187978ec0fce94ca6 (refs/remotes/origin/master)
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git ls-remote -h https://github.com/srivardan05/hello-world-war.git # timeout=10
+Found 1 remote heads on https://github.com/srivardan05/hello-world-war.git
+[poll] Latest remote head revision on refs/heads/master is: 49401ca27c593cc65caa231187978ec0fce94ca6 - already built by 5
+Done. Took 82 ms
+No changes

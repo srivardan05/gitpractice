@@ -1,0 +1,25 @@
+Started by user [8mha:////4GWWCD1+HPShbpzQ3gGfrpqnnOpWPt6/IonhJ7xkZwUkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9YqDuzLLEYgC68cHwwwAAAA==[0msrinivas
+Building in workspace /root/.jenkins/workspace/build
+Cloning the remote Git repository
+Cloning repository https://github.com/srivardan05/hello-world-war.git
+ > /usr/bin/git init /root/.jenkins/workspace/build # timeout=10
+Fetching upstream changes from https://github.com/srivardan05/hello-world-war.git
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress https://github.com/srivardan05/hello-world-war.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git config remote.origin.url https://github.com/srivardan05/hello-world-war.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/srivardan05/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/srivardan05/hello-world-war.git
+ > /usr/bin/git fetch --tags --progress https://github.com/srivardan05/hello-world-war.git +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7b34f5206ee4eefe1c2799c856f9c4c49f8d371e (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 7b34f5206ee4eefe1c2799c856f9c4c49f8d371e
+Commit message: "Update index.jsp"
+First time build. Skipping changelog.
+[build] $ /bin/sh -xe /opt/tomcat/temp/jenkins8536158972801388904.sh
++ mvn clean package
+/opt/tomcat/temp/jenkins8536158972801388904.sh: line 2: mvn: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
